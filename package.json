@@ -1,0 +1,46 @@
+{
+  "name": "nodejs-typescript-template-exalto",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tsc",
+    "dev": "nodemon app.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Exalto-Holding/NodeJS-Typescript-Template"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Exalto-Holding/NodeJS-Typescript-Template/issues"
+  },
+  "homepage": "https://github.com/Exalto-Holding/NodeJS-Typescript-Template#readme",
+  "devDependencies": {
+    "@types/node": "^18.14.2",
+    "@typescript-eslint/eslint-plugin": "^5.41.0",
+    "@typescript-eslint/parser": "^5.41.0",
+    "csstype": "^3.1.1",
+    "dotenv": "^16.0.3",
+    "eslint": "^8.26.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-typescript": "^17.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-triple": "^0.5.5",
+    "eslint-import-resolver-typescript": "^3.5.2",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-only-warn": "^1.0.3",
+    "eslint-plugin-prettier": "^4.2.1",
+    "lint-staged": "^13.1.0",
+    "prettier": "^2.8.3",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "config": "^3.3.9",
+    "nodemon": "^2.0.20",
+    "ts-node": "^10.9.1"
+  }
+}

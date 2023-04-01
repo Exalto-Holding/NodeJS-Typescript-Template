@@ -1,0 +1,15 @@
+{
+  "extends": ["triple"],
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+    "rules": {
+      "import/no-extraneous-dependencies": "off",
+      "semi": [1, "always"]
+  }
+}
